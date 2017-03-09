@@ -269,6 +269,10 @@ to {
 .logo {
 	padding: 45px 0;
 	text-align:center;
+	font-size: 15em;
+	color: #fff;
+	font-weight: 900;
+	opacity: 0.6;
 }
 .btn-large {
 	font-size:18px;
@@ -834,4 +838,12 @@ padding: 8px 15px;
 	border-bottom: 1px solid #eadeda;
 	margin:40px 0 20px;
 	padding-bottom:10px;
+}
+
+@media screen and (max-width: 760px) {
+  .logo a{
+    font-size: 40px;
+		color: #FFF;
+		opacity: 1;
+  }
 }
